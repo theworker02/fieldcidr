@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/fieldcidr",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Field encode/decode helpers for cidr payloads in pipelines.",
+  "bin": {
+    "fieldcidr": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/fieldcidr.git"
+  },
+  "homepage": "https://theworker02.github.io/fieldcidr/",
+  "keywords": [
+    "field",
+    "cidr",
+    "encode",
+    "cli",
+    "toolkit"
+  ]
+}
